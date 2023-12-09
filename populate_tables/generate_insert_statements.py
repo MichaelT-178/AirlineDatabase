@@ -1,4 +1,3 @@
-import os 
 from models.Airport import Airport
 from models.Employee import Employee
 from models.Flight import Flight
@@ -7,7 +6,6 @@ from models.Operates import Operates
 from models.Passenger import Passenger
 from models.Plane import Plane
 from models.WorksOn import WorksOn
-
 
 def create_insert_statements(table_name: str, table_vals: str, model_list: list):
     insert_str = f"INSERT INTO {table_name} {table_vals} VALUES\n"
@@ -161,6 +159,3 @@ generate_passengers()
 generate_plane()
 
 generate_workson()
-
-#Copy the insert_statements folder into the sql directory
-os.system("cp -r ../../CSC-455-Project/populate_tables/insert_statements ../../CSC-455-Project/SQL/")
