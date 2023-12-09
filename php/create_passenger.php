@@ -111,6 +111,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             placeholder: "", 
             regex: "^[1-9]$"
         }).mask(document.getElementById('field4')); //num of bags
+        
     </script>
 
     
