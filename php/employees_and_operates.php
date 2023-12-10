@@ -1,7 +1,6 @@
 <?php
     require_once('../mysqli_config_project.php'); // Connect to the database
 
-    #ADD QUERY HERE. THIS IS NOT A VALID QUERY FOR THIS PROJECT. Just for test purposes 
     $query = 'SELECT Employee.FName, Employee.LName, Operates.TrackingNumber 
               FROM Employee 
               JOIN Operates ON Employee.EmployeeID = Operates.EmployeeID';

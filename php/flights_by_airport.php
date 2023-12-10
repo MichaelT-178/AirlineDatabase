@@ -2,7 +2,6 @@
     // ini_set('error_reporting', 1); // Turn on error reporting - remove once everything works.
     require_once('../mysqli_config_project.php'); // Connect to the database
 
-    #ADD QUERY HERE. THIS IS NOT A VALID QUERY FOR THIS PROJECT. Just for test purposes 
     $query = 'SELECT DepartureAirport, COUNT(*) AS TotalFlights
               FROM Flight
               GROUP BY DepartureAirport
