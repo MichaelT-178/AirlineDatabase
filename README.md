@@ -13,5 +13,10 @@ Below is the original link I used that doesn't work unless you're on UNCW wi-fi 
 http://ada.cis.uncw.edu/~mst5084/index.html
 ```
 
+## Live Version
+In 2026, I rebuilt this app as a publicly accessible static website using Vue and JSON.
+
+[airlinedatabase.net](https://airlinedatabase.net)
+
 The python files weren't a part of the final grade, they we're just used to create the insert statements with a large number of rows 
 and a wide variety of data for our database.
